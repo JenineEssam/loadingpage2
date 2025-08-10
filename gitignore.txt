@@ -1,0 +1,28 @@
+# .gitignore
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build files
+dist/
+build/
+.cache/
+
+# Environment variables
+.env
+.env.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Testing
+coverage/
